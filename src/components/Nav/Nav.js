@@ -20,7 +20,7 @@ const Nav = () => {
 						</NavLink>
 					) : (
 						<NavLink
-							to={"/"}
+							to={"/cost"}
 							className={(nav) => (nav.isActive ? mc["active"] : "")}
 						>
 							Accueil

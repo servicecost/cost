@@ -19,7 +19,7 @@ const App = () => {
 	return (
 		<div className={mc.container}>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/cost" element={<Home />} />
 				<Route path="/HomeConnected" element={<HomeConnected />} />
 				<Route path="/Help" element={<Contact />} />
 				<Route path="/Login" element={<HomeLogin />} />
